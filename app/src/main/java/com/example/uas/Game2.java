@@ -49,7 +49,7 @@ public class Game2 extends AppCompatActivity {
         }
 
         if(angka3 == angka1){
-            angka3 = angka3 -5;
+            angka3 = angka3 -3;
         }
         else{
             angka3 =angka3 ;

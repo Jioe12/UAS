@@ -26,10 +26,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="-3dp"
-        android:layout_marginBottom="-83dp" />
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="-34dp"
+        android:layout_marginBottom="-75dp" />
 
     <TextView
         android:id="@+id/input3"
@@ -38,9 +38,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="287dp"
-        android:text="Aku mau pergi ke pasar"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="282dp"
+        android:text="Ada berapa banyak persegi ?"
         android:textSize="26dp" />
 
     <Button
@@ -59,12 +59,14 @@
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/speak3"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button13Clicked"/>
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="282dp"
+        android:onClick="Button13Clicked"
+        android:text="0" />
 
     <Button
         android:id="@+id/button23"
@@ -72,33 +74,37 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="109dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button23Clicked"/>
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="215dp"
+        android:onClick="Button23Clicked"
+        android:text="0" />
 
     <Button
         android:id="@+id/button33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="208dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button33Clicked"/>
+        android:layout_marginStart="253dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="214dp"
+        android:onClick="Button33Clicked"
+        android:text="0" />
 
     <Button
         android:id="@+id/button43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/speak3"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="308dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button43Clicked"/>
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="279dp"
+        android:onClick="Button43Clicked"
+        android:text="0" />
 
 </RelativeLayout>

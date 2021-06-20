@@ -20,7 +20,6 @@ public class Game1 extends AppCompatActivity {
     // button pilgan
     Button button1, button2, button3, button4 ;
     //
-    private int angka1, angka2, angka3, angka4;
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,35 +31,7 @@ public class Game1 extends AppCompatActivity {
     }
 
     private void soal() {
-        angka1 = 5;// jawaban kunci
-        Random rnd = new Random();//random angka untuk jawaban
-
-        angka2 = rnd.nextInt(10);//rnd
-        angka3 = rnd.nextInt(10);
-        angka4 = rnd.nextInt(10);
-
         // cek jawaban agar tidak sama dengan kunci
-        if(angka2 == angka1){
-
-            angka2 = angka2 -1;
-        }
-        else{
-            angka2 =angka2 ;
-        }
-
-        if(angka3 == angka1){
-            angka3 = angka3 -1;
-        }
-        else{
-            angka3 =angka3 ;
-        }
-
-        if(angka4 == angka1){
-            angka4 = angka4 -1;
-        }
-        else{
-            angka4 =angka4 ;
-        }
 
         button1 =(Button) findViewById(R.id.button1);//inisialisasi button
         button2 =(Button) findViewById(R.id.button2);
@@ -69,16 +40,16 @@ public class Game1 extends AppCompatActivity {
 
         //text untuk menampilkan jawaban
         TextView jwb1 = (TextView) findViewById(R.id.button1);
-        jwb1.setText(""+angka1);
+        jwb1.setText("Persegi ");
 
         TextView jwb2 = (TextView) findViewById(R.id.button2);
-        jwb2.setText(""+angka2);
+        jwb2.setText("Lingkaran");
 
         TextView jwb3 = (TextView) findViewById(R.id.button3);
-        jwb3.setText(""+angka3);
+        jwb3.setText("Segitiga");
 
         TextView jwb4 = (TextView) findViewById(R.id.button4);
-        jwb4.setText(""+angka4);
+        jwb4.setText("Bola");
 
     }
 

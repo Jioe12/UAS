@@ -23,7 +23,7 @@ public class faceview3 extends View {
         Paint green = new Paint();
         green.setARGB(255,0,255,0);
         green.setStyle(Paint.Style.FILL_AND_STROKE);
-        canvas.drawRect(new RectF(100,100,300,300),green);
+        canvas.drawRect(new RectF(50,50,150,150),green);
 
         Paint blue = new Paint();
         blue.setARGB(255,0,0,255);
@@ -41,13 +41,13 @@ public class faceview3 extends View {
         Paint green1 = new Paint();
         green1.setARGB(255,0,255,0);
         green1.setStyle(Paint.Style.FILL_AND_STROKE);
-        canvas.drawRect(new RectF(300,100,500,300),blue);
+        canvas.drawRect(new RectF(150,50,250,150),blue);
 
         //gambar3
-        canvas.drawRect(new RectF(500,100,700,300),black);
+        canvas.drawRect(new RectF(250,50,350,150),black);
 
         //gambar4
-        canvas.drawRect(new RectF(700,100,900,300),red);
+        canvas.drawRect(new RectF(350,50,450,150),red);
 
 
 

@@ -19,17 +19,17 @@
         android:textSize="26dp" />
 
     <com.example.uas.faceview2
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="273dp"
+        android:layout_height="171dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginEnd="-2dp"
-        android:layout_marginBottom="-71dp" />
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="495dp" />
 
     <TextView
         android:id="@+id/input2"
@@ -38,9 +38,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="287dp"
-        android:text="Aku mau pergi ke pasar"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="282dp"
+        android:text="ada berapa lingkaran ?"
         android:textSize="26dp" />
 
     <Button
@@ -59,46 +59,54 @@
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/speak2"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button12Clicked"/>
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="287dp"
+        android:onClick="Button12Clicked"
+        android:text="0" />
 
     <Button
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button12"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="109dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button22Clicked"/>
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="202dp"
+        android:onClick="Button22Clicked"
+        android:text="0" />
 
     <Button
         android:id="@+id/button32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="208dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button32Clicked"/>
+        android:layout_marginStart="248dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="220dp"
+        android:onClick="Button32Clicked"
+        android:text="0" />
 
     <Button
         android:id="@+id/button42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/speak2"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="308dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="280dp"
-        android:text="0"
-        android:onClick="Button42Clicked"/>
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="284dp"
+        android:onClick="Button42Clicked"
+        android:text="0" />
 
 </RelativeLayout>

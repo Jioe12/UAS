@@ -23,7 +23,7 @@ public class faceview2 extends View {
         Paint green = new Paint();
         green.setARGB(255,0,255,0);
         green.setStyle(Paint.Style.FILL_AND_STROKE);
-        canvas.drawOval(new RectF(100,100,300,300),green);
+        canvas.drawOval(new RectF(50,50,150,150),green);
 
         Paint blue = new Paint();
         blue.setARGB(255,0,0,255);
@@ -41,29 +41,29 @@ public class faceview2 extends View {
         Paint green1 = new Paint();
         green1.setARGB(255,0,255,0);
         green1.setStyle(Paint.Style.FILL_AND_STROKE);
-        canvas.drawOval(new RectF(200,200,400,400),red);
+        canvas.drawOval(new RectF(100,100,200,200),red);
 
         //gambar3
-        canvas.drawOval(new RectF(300,300,500,500),black);
+        canvas.drawOval(new RectF(150,150,250,250),black);
 
         //gambar4
-        canvas.drawOval(new RectF(500,300,700,500),black);
+        canvas.drawOval(new RectF(250,150,350,250),black);
 
         //gambar5
-        canvas.drawOval(new RectF(600,200,800,400),red);
+        canvas.drawOval(new RectF(300,100,400,200),red);
 
         //gambar6
-        canvas.drawOval(new RectF(700,100,900,300),green);
+        canvas.drawOval(new RectF(350,50,450,150),green);
 
         //gambar7
         green1.setARGB(255,0,255,0);
         green1.setStyle(Paint.Style.FILL_AND_STROKE);
-        canvas.drawOval(new RectF(400,50,600,250),green);
+        canvas.drawOval(new RectF(200,25,300,125),green);
 
         //gambar8
         green1.setARGB(255,0,255,0);
         green1.setStyle(Paint.Style.FILL_AND_STROKE);
-        canvas.drawOval(new RectF(400,200,600,400),blue);
+        canvas.drawOval(new RectF(200,100,300,200),blue);
 
 
     }
