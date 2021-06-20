@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="14dp"
+        android:text="Game2"
+        android:textSize="26dp" />
+
+    <com.example.uas.faceview2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-71dp" />
+
+    <TextView
+        android:id="@+id/input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="287dp"
+        android:text="Aku mau pergi ke pasar"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/speak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="330dp"
+        android:onClick="speak"
+        android:text="SPEAK" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="280dp"
+        android:text="0"
+        android:onClick="Button12Clicked"/>
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginBottom="280dp"
+        android:text="0"
+        android:onClick="Button22Clicked"/>
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="280dp"
+        android:text="0"
+        android:onClick="Button32Clicked"/>
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="308dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="280dp"
+        android:text="0"
+        android:onClick="Button42Clicked"/>
+
+</RelativeLayout>
